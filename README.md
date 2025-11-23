@@ -63,7 +63,8 @@ The dashboard is designed to help educators quickly identify improvement areas, 
 - Power Query (Data cleaning & transformation)
 - DAX (Measures & Calculations)
 
-👤 Author
-Md. Zubayer Hasan
-Junior BI & Data Analyst
+
+## 👤 Author
+Md. Zubayer Hasan <br>
+Junior BI & Data Analyst <br>
 📧 zubayerhasan12345@gmail.com
