@@ -1,92 +1,74 @@
-📊 10 MS Students’ Performance Dashboard
-A Power BI Analytics Project
-📝 Project Overview
+# 📊 10 MS Students’ Performance Dashboard
+### A Power BI Analytics Project
+## 📝 Project Overview
 
 This project analyzes student exam performance for “10 MS” over a 31-day period using Power BI.
 The goal was to understand attendance patterns, exam attempt trends, pass rate fluctuations, and student performance changes across multiple attempts.
 The dashboard is designed to help educators quickly identify improvement areas, declining performance, and top-performing students.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Analyze daily exam attempts and attendance behavior
+- Analyze daily exam attempts and attendance behavior
+- Track pass rate trends over time
+- Identify students who improved or declined between attempts
+- Highlight exams with notable performance drops
+- Summarize second-attempt improvements
+- Provide actionable insights for academic decisions
 
-Track pass rate trends over time
-
-Identify students who improved or declined between attempts
-
-Highlight exams with notable performance drops
-
-Summarize second-attempt improvements
-
-Provide actionable insights for academic decisions
-
+```
 📂 Project Files
 ├── 10 MS Student's Performance Dashboard_Zubayer.pdf     # Exported dashboard report
-├── Power BI (.pbix) file (if uploading)
+├── Power BI (.pbix) file
+├── 10 MS Student's Performance Summary
 └── README.md                                             # Documentation
+```
 
-🔍 Key Insights from the Dashboard
-1️⃣ Attendance & Attempts
+## 🔍 Key Insights from the Dashboard
+### 1️⃣ Attendance & Attempts
 
-300 unique students participated across 12 exams.
+- 300 unique students participated across 12 exams.
+- Participation showed mid-month peaks (days 10–20).
+- Daily attempts varied significantly depending on exam schedules.
 
-Participation showed mid-month peaks (days 10–20).
+### 2️⃣ Pass Rate Analysis
 
-Daily attempts varied significantly depending on exam schedules.
+- Average pass rate: 70.6%
+- Daily pass rate fluctuated between 10% and 90%, indicating varying difficulty levels or preparedness.
 
-2️⃣ Pass Rate Analysis
+### 3️⃣ Performance Trends
 
-Average pass rate: 70.6%
+- 47.47% of students improved on their next attempt
+- 46.36% declined
+- 6.17% remained the same
+- Performance changes highlight opportunities for targeted support.
 
-Daily pass rate fluctuated between 10% and 90%, indicating varying difficulty levels or preparedness.
+### 4️⃣ Declining Exams
 
-3️⃣ Performance Trends
+- Several exams from Class 10 weekly/monthly categories showed noticeable drops, signalling possible difficulty or learning gaps.
 
-47.47% of students improved on their next attempt
+### 5️⃣ Best Improvements
 
-46.36% declined
+- “Monthly Exam 1 (MCQ)” showed the strongest second-attempt improvements, with multiple students gaining +7.5 marks.
 
-6.17% remained the same
+## 🧠 Assumptions
 
-Performance changes highlight opportunities for targeted support.
+- Each user_id represents a unique student.
+- “Improvement” = difference between previous and current attempts.
+- Attendance is based on number of exam attempts per day (not distinct logins).
+- Pass rate depends on each exam’s defined pass mark.
 
-4️⃣ Declining Exams
+## 🛠️ Tools & Technologies
 
-Several exams from Class 10 weekly/monthly categories showed noticeable drops, signalling possible difficulty or learning gaps.
-
-5️⃣ Best Improvements
-
-“Monthly Exam 1 (MCQ)” showed the strongest second-attempt improvements, with multiple students gaining +7.5 marks.
-
-🧠 Assumptions
-
-Each user_id represents a unique student.
-
-“Improvement” = difference between previous and current attempts.
-
-Attendance is based on number of exam attempts per day (not distinct logins).
-
-Pass rate depends on each exam’s defined pass mark.
-
-🛠️ Tools & Technologies
-
-Power BI Desktop
-
-Power Query (Data cleaning & transformation)
-
-DAX (Measures & Calculations)
+- Power BI Desktop
+- Power Query (Data cleaning & transformation)
+- DAX (Measures & Calculations)
 
 📸 Dashboard Preview
 
-(Insert dashboard screenshots if you want visual previews)
-![Dashboard Preview](path/to/image.png)
+![Dashboard Preview]((https://drive.google.com/file/d/1XrOQhYKqt0g55-j0nSodhlK-PlxThzPs/view?usp=sharing))
 
-🚀 How to Use This Project
+👤 Author
 
-Download the .pbix file
-
-Open using Power BI Desktop
-
-Connect to your dataset (if using dynamic data)
-
-Explore insights through interactive visuals
+Zubayer Hasan
+Junior BI & Data Analyst
+📧 zubayerhasan12345@gmail.com
